@@ -29,7 +29,7 @@ Create
 db.users.insertOne({ name: "Jane", email: "jane@example.com", age: 28, role: "user" })
 ```
 Read
-```
+
 Find all users:
 ```js
 db.users.find()
@@ -37,7 +37,6 @@ db.users.find()
 Filter:
 ```js
 db.users.find({ age: { $gt: 25 } })
-```
 ```
 
 Projection:
