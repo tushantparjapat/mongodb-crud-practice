@@ -53,3 +53,14 @@ Delete:
 ```js
 db.users.deleteMany({ age: { $gt: 50 } })
 ```
+💡 Insights
+Practiced MongoDB’s query language for filtering, sorting, and updating documents
+
+Learned data integrity concepts in NoSQL
+
+Experienced real-world database use-cases for the MERN stack
+
+🧑‍💻 Author
+Tushant Parjapat
+
+LinkedIn | GitHub
