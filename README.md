@@ -30,17 +30,25 @@ db.users.insertOne({ name: "Jane", email: "jane@example.com", age: 28, role: "us
 ```
 Read
 Find all users:
-
+```js
 db.users.find()
 
 Filter:
+```js
 db.users.find({ age: { $gt: 25 } })
+```
 
 Projection:
+```js
 db.users.find({}, { name: 1, email: 1 })
+```
 
-Update
+Update:
+```js
 db.users.updateOne({ name: "Jane" }, { $set: { role: "admin" } })
+```
 
-Delete
+Delete:
+```js
 db.users.deleteMany({ age: { $gt: 50 } })
+```
